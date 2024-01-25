@@ -8,6 +8,6 @@ jobs:
      - name: run snapshot
        command: dbt snapshot
      - name: run models
-       command: dbt run - sam
+       command: dbt run -m sam
      - name: test model
        command: dbt test
