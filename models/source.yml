@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: salesforce_account
+    database: GOKULDB
+    schema: SALESFORCE
+    tables:
+      - name: ACCOUNT
+          
