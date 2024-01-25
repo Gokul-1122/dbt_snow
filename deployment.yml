@@ -1,7 +1,7 @@
 jobs:
 
  - name: weekdays
-   schedule: 0 17 * * * # The will run every monday at 1:00am.
+   schedule: 25 17 * * * # The will run every monday at 1:00am.
    steps:
      - name: installation packages
        command: dbt deps
