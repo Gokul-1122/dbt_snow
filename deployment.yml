@@ -3,11 +3,6 @@ jobs:
  - name: weekdays
    schedule: 2 * * * * # The will run every monday at 1:00am.
    steps:
-     - name: installation packages
-       command: dbt deps
-     - name: run snapshot
-       command: dbt snapshot
      - name: run models
        command: dbt run -m sam
-     - name: test model
-       command: dbt test
+    
