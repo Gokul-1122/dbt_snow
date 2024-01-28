@@ -1,9 +1,7 @@
--- models/account.sql
-
--- Ref to the source table
 {{ config(
   materialized='table',
-  unique_key='ID'
+  unique_key='ID',
+  schema='marketing'
 ) }}
 
 SELECT top 10

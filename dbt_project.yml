@@ -35,3 +35,7 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+    sam:
+      +schema: Salesforce
+      # models in `models/marketing/ will be rendered to the "*_marketing" schema
+
