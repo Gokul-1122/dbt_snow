@@ -23,6 +23,6 @@ models:
     example:
       +materialized: view
     sam:
-      +schema: Snowflake
+      +schema: Netsuite
       
 
