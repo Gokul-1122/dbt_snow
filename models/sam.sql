@@ -1,7 +1,7 @@
 {{ config(
   materialized='table',
   unique_key='ID',
-  schema='Netsuite'
+  schema='Sharepoint'
 ) }}
 
 SELECT top 10
