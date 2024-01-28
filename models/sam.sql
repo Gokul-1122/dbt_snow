@@ -1,7 +1,7 @@
 {{ config(
   materialized='table',
   unique_key='ID',
-  schema='marketing'
+  schema='Salesforce'
 ) }}
 
 SELECT top 10
