@@ -1,7 +1,7 @@
 {{ config(
   materialized='table',
   unique_key='ID',
-  schema='Sharepoint'
+  schema='Snowflake'
 ) }}
 
 SELECT top 10
